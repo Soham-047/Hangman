@@ -21,6 +21,7 @@ Reveals correct guesses and tracks your progress in real-time.
 Play as many rounds as you like without restarting the program.\
 
 🚀 How to Run
-  g++ hangman.cpp
-  ./a.out // If MAC or Linux Based System
-  ./a.exe // For windows
+       
+```bash
+  g++ -o hangman hangman.cpp
+  ./hangman
